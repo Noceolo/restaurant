@@ -1,3 +1,3 @@
 import "./styles.css";
 
-console.log("Odeliott Restaurant")
+console.log("Odeliott's Restaurant")
