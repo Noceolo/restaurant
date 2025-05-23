@@ -2,6 +2,30 @@
 body {
   background-color: bisque;
   color: grey;
+  display: flex;
 }
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: grey;
+}
+
+.tab button:hover{
+  background-color: rgb(255, 203, 139);
+}
+
 
 
