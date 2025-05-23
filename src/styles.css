@@ -23,8 +23,20 @@ body {
   color: grey;
 }
 
+.tab button.active {
+  background-color: rgb(255, 212, 160);
+}
+
 .tab button:hover{
   background-color: rgb(255, 203, 139);
+}
+
+.tabContent{
+  display: none;
+}
+
+#homeTab{
+  display: block;
 }
 
 
