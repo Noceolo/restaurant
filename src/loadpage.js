@@ -1,4 +1,4 @@
-function loadPage(){
+export default function loadPage(){
     var contentDiv = document.getElementById('content')
 
     const homeTab = document.createElement('div');
@@ -36,5 +36,5 @@ function loadPage(){
 
     contentDiv.append(homeTab, aboutTab, contactTab);
 
-}
+};
 
