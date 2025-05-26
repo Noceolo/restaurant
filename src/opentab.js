@@ -1,4 +1,4 @@
-function openTab(evt, tabName){
+export default function openTab(evt, tabName){
     var i;
     var tabcontent;
     var tablinks;
@@ -17,3 +17,4 @@ function openTab(evt, tabName){
     evt.currentTarget.className += " active";
 
 };
+
